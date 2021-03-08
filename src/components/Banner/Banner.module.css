@@ -1,0 +1,33 @@
+.Banner {
+    width: 100%;
+    height: 401px;
+    background-image: url("https://resources.premierleague.com/photos/premierleague/photo/2021/02/13/352cd3a4-0038-4e7a-830d-00c361118f5a/2021-02-13T131836Z_285871488_UP1EH2D10Z0MD_RTRMADP_3_SOCCER-ENGLAND-LEI-LIV-REPORT.JPG?width=1350&height=759");
+    background-size: cover;
+    background-position:bottom;
+    position: relative;
+}
+
+.Banner img {
+    height: 100%;
+    width: 100%;
+}
+
+.BannerText {
+    color: white;
+    position: absolute;
+    border-radius: 5px;
+    background: rgba(5, 5, 5, 0.863);
+    max-width: 500px;
+    padding: 20px 40px;
+    top: 40px;
+    left: 10%;
+}
+
+.BannerText h2 {
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.BannerText p {
+    font-size: 24px;
+}

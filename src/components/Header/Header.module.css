@@ -1,0 +1,21 @@
+.Header {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background-image: url("./banner.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.TextContainer {
+    color: white;
+    position: absolute;
+    border-radius: 5px;
+    background: rgba(5, 5, 5, 0.808);
+    width: 50%;
+    padding: 20px 40px;
+    top: 40px;
+    left: 10%;
+}

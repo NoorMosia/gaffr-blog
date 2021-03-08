@@ -1,0 +1,35 @@
+Stage 1 - Frontend
+
+    - home page
+        * Banner with the blog name and a 1 liner
+        * Blogs section with a carousel
+        * features section 
+        * footer
+
+    - blogs page
+        * /blogs - all blogs
+        * /blogs/blogId - page where you can read a blog
+
+    - contact us page
+        * our contact/social details
+        * the team section
+
+    - upload/edit/delete blog page
+        * all blogs by date created
+        * create new blog button 
+
+
+
+--------------------------------------
+
+Stage 2 - backend functionality
+
+    - Firebase
+        * blogs
+        * newsletter emails 
+
+
+
+---------------------------------------
+
+Stage 3 - deploy
