@@ -1,5 +1,7 @@
 import React from "react";
 import { MDBRow, MDBCol, MDBCardBody, MDBMask, MDBView, MDBBtn } from "mdbreact";
+import { Link } from 'react-router-dom';
+import * as Styles from "./SectionBlogs.module.css";
 
 const BlogPage = () => {
     return (
@@ -24,13 +26,14 @@ const BlogPage = () => {
                         Date: 15/07/2018
                     </p>
                     <p className="dark-grey-text">
-                        Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                        nihil impedit quo minus id quod maxime placeat facere possimus
-                        voluptas.
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                        aut fugit, sed quia consequuntur magni dolores eos qui...
                     </p>
-                    <MDBBtn color="deep-orange" rounded size="md">
-                        Read more
-                    </MDBBtn>
+                    <Link to="/blog/hjbdcb">
+                        <MDBBtn color="blue" rounded size="md">
+                            Read more
+                        </MDBBtn>
+                    </Link>
                 </MDBCol>
                 <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
                     <MDBView hover className="rounded z-depth-2 mb-4" waves>
@@ -49,12 +52,15 @@ const BlogPage = () => {
                         Date: 13/07/2018
                     </p>
                     <p className="dark-grey-text">
-                        At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                        blanditiis voluptatum deleniti atque corrupti quos dolores.
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                        aut fugit, sed quia consequuntur magni dolores eos qui...
                     </p>
-                    <MDBBtn color="deep-orange" rounded size="md">
-                        Read more
+                    <Link to="/blog/hjbdcb">
+                        <MDBBtn color="blue" rounded size="md">
+                            Read more
                     </MDBBtn>
+
+                    </Link>
                 </MDBCol>
                 <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
                     <MDBView hover className="rounded z-depth-2 mb-4" waves>
@@ -74,13 +80,23 @@ const BlogPage = () => {
                     </p>
                     <p className="dark-grey-text">
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                        aut fugit, sed quia consequuntur magni dolores eos qui ratione.
+                        aut fugit, sed quia consequuntur magni dolores eos qui...
                     </p>
-                    <MDBBtn color="deep-orange" rounded size="md">
-                        Read more
+                    <Link to="/blog/hjbdcb">
+                        <MDBBtn color="blue" rounded size="md">
+                            Read more
                     </MDBBtn>
+                    </Link>
                 </MDBCol>
             </MDBRow>
+
+            <div className={Styles.Button}>
+                <Link to="/blogs" >
+                    <MDBBtn color="blue" rounded size="lg">
+                        More Blogs
+                    </MDBBtn>
+                </Link>
+            </div>
         </MDBCardBody>
     );
 }

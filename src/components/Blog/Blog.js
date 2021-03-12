@@ -16,7 +16,7 @@ const BlogPage = () => {
                     </MDBView>
                     <MDBCardBody cascade className="text-center">
                         <h2 className="font-weight-bold">
-                            <a href="#!">Title of the news</a>
+                            <a href="#!">Title</a>
                         </h2>
                         <p>
                             Written by
@@ -36,7 +36,7 @@ const BlogPage = () => {
                         provident, similique sunt in culpa nemo enim ipsam voluptatem
                         quia voluptas sit qui officia deserunt mollitia animi, id est
                         laborum et dolorum fuga quidem rerum facilis est distinctio.
-              </p>
+                    </p>
                     <p>
                         Nam libero tempore, cum soluta nobis est eligendi optio cumque
                         nihil impedit quo minus id quod maxime placeat facere
@@ -46,7 +46,7 @@ const BlogPage = () => {
                         Temporibus autem quibusdam et aut officiis debitis aut rerum
                         necessitatibus saepe eveniet ut et voluptates repudiandae sint
                         et molestiae non recusandae itaque earum rerum.
-              </p>
+                    </p>
                 </MDBContainer>
             </MDBCol>
         </MDBRow>

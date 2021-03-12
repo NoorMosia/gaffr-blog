@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { MDBRow, MDBCol, MDBCardBody, MDBMask, MDBView, MDBBtn } from "mdbreact";
 
 const BlogPage = () => {
@@ -6,13 +7,13 @@ const BlogPage = () => {
         <MDBCardBody>
             <h2 className="h1-responsive font-weight-bold text-center my-5">
                 Recent posts
-                </h2>
+            </h2>
             <p className="text-center w-responsive mx-auto mb-5">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat non proident, sunt in culpa qui officia deserunt mollit
                 anim id est laborum.
-                </p>
+            </p>
             <MDBRow>
                 <MDBCol lg="5" xl="4">
                     <MDBView hover className="rounded z-depth-1-half mb-lg-0 mb-4">
@@ -28,7 +29,7 @@ const BlogPage = () => {
                 </MDBCol>
                 <MDBCol lg="7" xl="8">
                     <h3 className="font-weight-bold mb-3 p-0">
-                        <strong>Title of the news</strong>
+                        <strong>Gameweek 24: captaincy</strong>
                     </h3>
                     <p className="dark-grey-text">
                         Nam libero tempore, cum soluta nobis est eligendi optio cumque
@@ -36,13 +37,16 @@ const BlogPage = () => {
                         omnis voluptas assumenda est, omnis dolor repellendus et aut
                         officiis debitis cum soluta nobis est eligendi placeat facere
                         aut rerum.
-                        </p>
+                    </p>
                     <p>
                         by <a href="#!" className="font-weight-bold">Jessica Clark</a>, 19/04/2018
-                        </p>
-                    <MDBBtn color="primary" size="md">
-                        Read More
-            </MDBBtn>
+                    </p>
+
+                    <Link to="/blog/hjbdcb">
+                        <MDBBtn color="primary" size="md">
+                            Read More
+                        </MDBBtn>
+                    </Link>
                 </MDBCol>
             </MDBRow>
             <hr className="my-5" />
@@ -61,7 +65,7 @@ const BlogPage = () => {
                 </MDBCol>
                 <MDBCol lg="7" xl="8">
                     <h3 className="font-weight-bold mb-3 p-0">
-                        <strong>Title of the news</strong>
+                        <strong>Best defender picks</strong>
                     </h3>
                     <p className="dark-grey-text">
                         At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -69,13 +73,15 @@ const BlogPage = () => {
                         dolores et quas molestias excepturi sint occaecati cupiditate
                         non provident et accusamus iusto odio dignissimos et dolorum
                         fuga.
-                        </p>
+                    </p>
                     <p>
                         by <a href="#!" className="font-weight-bold">Jessica Clark</a>, 16/04/2018
-                        </p>
-                    <MDBBtn color="primary" size="md">
-                        Read More
-            </MDBBtn>
+                    </p>
+                    <Link to="/blog/hjbdcb">
+                        <MDBBtn color="primary" size="md">
+                            Read More
+                        </MDBBtn>
+                    </Link>
                 </MDBCol>
             </MDBRow>
             <hr className="my-5" />
@@ -94,20 +100,22 @@ const BlogPage = () => {
                 </MDBCol>
                 <MDBCol lg="7" xl="8">
                     <h3 className="font-weight-bold mb-3 p-0">
-                        <strong>Title of the news</strong>
+                        <strong>Pope replacement</strong>
                     </h3>
                     <p className="dark-grey-text">
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
                         aut fugit, sed quia consequuntur magni dolores eos qui ratione
                         voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
                         ipsum quia dolor sit amet, psam voluptatem quia consectetur.
-                        </p>
+                    </p>
                     <p>
                         by <a href="#!" className="font-weight-bold">Jessica Clark</a>, 12/04/2018
-                        </p>
-                    <MDBBtn color="primary" size="md">
-                        Read More
+                    </p>
+                    <Link to="/blog/hjbdcb">
+                        <MDBBtn color="primary" size="md">
+                            Read More
                         </MDBBtn>
+                    </Link>
                 </MDBCol>
             </MDBRow>
         </MDBCardBody>
